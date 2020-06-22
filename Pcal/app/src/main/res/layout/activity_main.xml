@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="30dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:text="@string/p_cal"
+        android:textColor="#FF9900"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Percent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your number"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="200dp" />
+
+    <EditText
+        android:id="@+id/enNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="180dp"
+        android:hint="Enter Number"/>
+
+    <EditText
+        android:id="@+id/enPer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:hint="Enter Percent"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="400dp"
+        android:background="#AA00FF"
+        android:text="CALULATE THE RESULT"
+        android:textColor="#008FFF" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:background="#FF0066"
+        android:gravity="center"
+        android:text="Result"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp" />
+</RelativeLayout>
